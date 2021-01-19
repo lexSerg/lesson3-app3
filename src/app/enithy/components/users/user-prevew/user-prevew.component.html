@@ -1,0 +1,8 @@
+<div class="user-prevew">
+    <p><strong>id: </strong>{{user.id}}</p>      
+    <p><strong>name: </strong>{{user.name}} </p>
+    <p><strong>username: </strong>{{user.username}}</p> 
+    <a class="btn btn-primary btn-lg " (click)='goToDetails(user.id)'>Details</a>
+</div>
+
+<router-outlet></router-outlet>

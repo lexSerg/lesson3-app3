@@ -1,0 +1,13 @@
+<div class="comment-wrap">
+    <div class="comment-content">
+        <p>Id: {{comment?.postId}}</p>
+        <p>postId: {{comment?.id}}</p>
+        <p>name: {{comment?.name}}</p>
+        <!-- <p>email: {{comment?.email}}</p>
+        <p>body: {{comment?.body}}</p> -->
+    </div>
+    <div class="btn-wrap">
+        <a class="btn btn-primary btn-lg" (click)='goToDetails(comment.id)'>Details</a>
+    </div>
+</div>
+<router-outlet></router-outlet>

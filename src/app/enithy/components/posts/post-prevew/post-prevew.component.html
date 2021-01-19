@@ -1,0 +1,12 @@
+<div class="post-wrap">
+        <div class="post-content">
+                <p>id : {{post?.id}} </p>
+                <p>userId : {{post?.userId}} </p>
+                <!-- <p>title : {{post?.title}} </p> -->
+        </div>
+        <div class="post-btn">
+                <a class="btn btn-primary btn-lg " (click)='goToDetails(post.id)'>Details</a>
+        </div>
+
+</div>
+<router-outlet></router-outlet>

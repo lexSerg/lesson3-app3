@@ -1,0 +1,14 @@
+.post-wrap{
+    margin: .3rem .3rem;
+    border: 1px dashed red;
+    display: flex;
+    padding-top: .7rem;
+    background-color: rgba(62, 88, 136, 0.644);
+}
+.post-btn{
+    margin-left: 2rem;
+    vertical-align: middle;
+}
+.post-content{
+    margin-left: 1.5rem;
+}

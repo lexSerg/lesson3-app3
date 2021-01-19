@@ -1,0 +1,15 @@
+.comment-wrap {
+    margin: .3rem .3rem;
+    border: 1px solid black;
+    display: flex;
+    padding-top: .7rem;
+    background-color: rgba(28, 116, 28, 0.685);
+}
+.btn-wrap{
+    display: flex;
+    align-items: center;
+}
+.comment-content{
+    width : 30%;
+    padding-left : .7rem;
+}
